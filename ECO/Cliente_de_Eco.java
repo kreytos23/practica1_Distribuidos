@@ -33,6 +33,7 @@ public class Cliente_de_Eco {
         } catch (IOException e) {
             System.err.println("no se pudo obtener E/S para la conexion " +
                 nombreHost);
+            System.out.println("Murió el programa :c");
             System.exit(1);
         } 
     }
